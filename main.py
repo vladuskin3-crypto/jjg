@@ -121,7 +121,7 @@ def process_product(call):
     
     bot.send_message(
         call.message.chat.id,
-        f"✅ Успешная покупка!\nТы приобрел доступ на **{name}**.\nБаланс обновлен.",
+        f"✅ Успешная покупка!Напишите @belovP2P чтобы получить товар. \nТы приобрел доступ на **{name}**.\nБаланс обновлен.",
         parse_mode="Markdown"
     )
 
