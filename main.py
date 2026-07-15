@@ -7,7 +7,7 @@ import re
 TOKEN = '8919583440:AAHKm28DtvwRMwkEyet6sZ5cFTWQR_lXNSw'  # <-- ВСТАВЬ СЮДА ТОКЕН ОТ @BotFather
 ADMIN_ID = 7885156097      # <-- ВСТАВЬ СЮДА СВОЙ TELEGRAM ID (цифры)
 CHANNEL_USERNAME = '@WhiHosting' # <-- ВСТАВЬ ЮЗЕРНЕЙМ КАНАЛА БЕЗ @ (или с @, код обработает)
-SUPPORT_BOT_USERNAME = "@suportWhiteHosting_bot" # <-- Имя пользователя бота поддержки
+SUPPORT_BOT_USERNAME = "suportWhiteHosting_bot" # <-- Имя пользователя бота поддержки
 
 bot = telebot.TeleBot(TOKEN)
 
